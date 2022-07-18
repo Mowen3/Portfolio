@@ -1,3 +1,247 @@
 body{
-    background: rgb(0, 0, 0);
+    background: rgb(29, 29, 45);
+    margin: 10px;
 }
+
+   /*Images*/
+img.home {
+    width: 400px;
+    position: relative; left: 20px; top: -298px;
+    clip-path: inset(0 0 46% 0);
+}
+img.skillz {
+    width: 270px;
+    position: relative; left:100px; top: -364px;  
+}
+
+
+    /*Divs*/
+div.innerbox{
+    width: 20%;
+    height: 100px;
+    background:rgb(29, 29, 45);
+    border-radius: 10px;
+    position: relative; left: -10px; top:-10px;
+}
+div.innerbox2{
+    width: 60%;
+    height: 320px;
+    background:rgb(29, 29, 45);
+    border-radius: 10px;
+    position: relative; left: 400px; top:-85px;
+}
+div.bubble{
+    width: 200px;
+    height: 200px;
+    background:rgb(29, 29, 45);
+    border-radius: 100%;
+    position: relative; left: 1200px; top:-330px;
+    box-shadow: 6px -6px;
+}
+div.bubble2{
+    width: 50px;
+    height: 50px;
+    background:rgb(29, 29, 45);
+    border-radius: 100%;
+    position: relative; left: 1130px; top:-360px;
+    box-shadow: 1px -1px;
+}
+div.bubble3{
+    width: 20px;
+    height: 20px;
+    background:rgb(29, 29, 45);
+    border-radius: 100%;
+    position: relative; left: 1070px; top:-360px;
+}
+
+div.box{
+    width: 95%;
+    height: 500px;
+    background: darkorange;
+    border-top: 35px solid white;
+    border-radius: 10px;
+    position: relative; left:36px; top: -40px; 
+}
+
+
+    /*Emphysese*/
+em#port{
+    color: white;
+}
+em#soft{
+    color: rgb(29, 29, 45);
+}
+
+
+   /*Lists*/
+ul{
+    list-style-type:none;
+    position: relative; left: 100px; top: 210px;
+}
+li{
+    display: inline;
+}
+
+    /*Paragraphs*/
+.skill{
+    font: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left:105px; top: -10px;
+}
+.tech{
+    font: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left:50px; top: 10px;
+}
+.bubtalk{
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative; left:0px; top: 60px;
+    text-align: center;
+   
+}
+.about{
+    font: bold;
+    font-size: 45px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left: 40px; top: 20px;
+}
+.aboutlong{
+    font: bold;
+    font-size: 22px;
+    padding: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left: 10px; top: 10px;
+}
+.sign{
+    font: bold;
+    font-size: 22px;
+    padding: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left: 300px; top: -20px;
+}
+.mit{
+    font-size: 30px;
+    color: darkorange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left:65px; top: -10px;
+}
+.name{
+    font: bolder;
+    font-size: 75px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative; left: 280px; top: 50px;
+}
+.hello{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative; left: 250px; top: 120px;
+}
+.and{
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative; left: 340px; top: -20px;
+}
+
+    /*Anchors*/
+a.homeabout{
+    font-size: 16px;
+    color: rgb(29, 29, 45);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative; left:30px; top: -545px;
+}
+a.homeskills{
+    font-size: 16px;
+    color: rgb(29, 29, 45);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative; left:-250px; top: -877px;
+}
+a{
+    font-size: 16px;
+    padding-right: 50px;
+    color: rgb(29, 29, 45);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative; left:820px; top: -250px;
+
+}
+a:hover{
+    color: darkorange;
+}
+
+   /*Buttons*/
+button.skills {
+    font-weight: bold;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color:rgb(29, 29, 45);
+    border-radius: 8px;
+    position: relative; left:500px; top: -100px;
+    box-shadow: -10px -10px;
+    
+}
+button.skills2 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color:rgb(29, 29, 45);
+    border-radius: 8px;
+    position: relative; left:700px; top: -400px;
+    box-shadow: -10px -10px;
+
+}
+
+/*SHAPES*/
+
+    /*RSS Symbol*/
+#rss {
+    width: 5em;
+    height: 5em;
+    border-radius: .75em;
+    background-color: darkorange;
+    font-size: 3.5px;
+    position: relative; left:345px; top: -63px;
+  }
+  #rss:before {
+    content: '';
+    z-index: 1;
+    display: block;
+    height: 1.75em;
+    width: 1.75em;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 3em;
+    left: 1em;
+  }
+  #rss:after {
+    content: '';
+    display: block;
+    background: darkorange;
+    width: 3em;
+    height: 3em;
+    top: -.5em;
+    left: 1em;
+    border-radius: .65em;
+    position: relative;
+    box-shadow:
+      -1em 1em 0 0 #fff inset,
+      -2em 2em 0 0 darkorange inset,
+      -3em 3em 0 0 #fff inset
+  }
+
